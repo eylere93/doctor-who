@@ -11,10 +11,11 @@
 <!-- TemplateParam name="Companions Submenu" type="boolean" value="false" -->
 <!-- TemplateParam name="Villains Submenu" type="boolean" value="false" -->
 <!-- TemplateParam name="Show History Submenu" type="boolean" value="false" -->
+<link href="../styles.css" rel="stylesheet" type="text/css">
 </head>
 
-<body>
-<table>
+<body class="body">
+<table class="general-width">
   <tr>
     <td>[Banner]</td>
   </tr>
@@ -22,76 +23,68 @@
     <td><a href="../index.html">Home</a> | <a href="../The Doctors/index.html">The Doctors</a> | <a href="../Companions/index.html">The Companions</a> | <a href="../Villains/index.html">The Villains</a> | <a href="../Show History/index.html">Show History</a></td>
   </tr>
 </table>
-<table>
+<table class="general-width">
   <tr>
-    <td><!-- TemplateBeginIf cond="_document['The Doctors Submenu']" -->
-      <ul>
-        <li><a href="../The Doctors/First Doctor.html">The First Doctor</a></li>
-        <li><a href="../The Doctors/Second Doctor.html">The Second Doctor</a></li>
-        <li><a href="../The Doctors/Third Doctor.html">The Third Doctor</a></li>
-        <li><a href="../The Doctors/Fourth Doctor.html">The Fourth Doctor</a></li>
-        <li><a href="../The Doctors/Fifth Doctor.html">The Fifth Doctor</a></li>
-        <li><a href="../The Doctors/Sixth Doctor.html">The Sixth Doctor</a></li>
-        <li><a href="../The Doctors/Seventh Doctor.html">The Seventh Doctor</a></li>
-        <li><a href="../The Doctors/Eigth Doctor.html">The Eighth Doctor</a></li>
-        <li><a href="../The Doctors/War Doctor.html">The War Doctor</a></li>
-        <li><a href="../The Doctors/Ninth Doctor.html">The Ninth Doctor</a></li>
-        <li><a href="../The Doctors/Tenth Doctor.html">The Tenth Doctor</a></li>
-        <li><a href="../The Doctors/Eleventh Doctor.html">The Eleventh Doctor</a></li>
-        <li><a href="../The Doctors/Twelfth Doctor.html">The Twelfth Doctor </a></li>
-      </ul>
+    <td class="secondary-nav"><!-- TemplateBeginIf cond="_document['The Doctors Submenu']" -->
+      <p><a href="../The Doctors/First Doctor.html">The First Doctor</a></p>
+      <p><a href="../The Doctors/Second Doctor.html">The Second Doctor</a></p>
+      <p><a href="../The Doctors/Third Doctor.html">The Third Doctor</a></p>
+      <p><a href="../The Doctors/Fourth Doctor.html">The Fourth Doctor</a></p>
+      <p><a href="../The Doctors/Fifth Doctor.html">The Fifth Doctor</a></p>
+      <p><a href="../The Doctors/Sixth Doctor.html">The Sixth Doctor</a></p>
+      <p><a href="../The Doctors/Seventh Doctor.html">The Seventh Doctor</a></p>
+      <p><a href="../The Doctors/Eigth Doctor.html">The Eighth Doctor</a></p>
+      <p><a href="../The Doctors/War Doctor.html">The War Doctor</a></p>
+      <p><a href="../The Doctors/Ninth Doctor.html">The Ninth Doctor</a></p>
+      <p><a href="../The Doctors/Tenth Doctor.html">The Tenth Doctor</a></p>
+      <p><a href="../The Doctors/Eleventh Doctor.html">The Eleventh Doctor</a></p>
+      <p><a href="../The Doctors/Twelfth Doctor.html">The Twelfth Doctor </a></p>
     <!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['Companions Submenu']" -->
-    <ul>
-      <li><a href="../Companions/Clara Oswald.html">Clara Oswald</a></li>
-      <li><a href="../Companions/River Song.html">River Song</a></li>
-      <li><a href="../Companions/Rory Williams.html">Rory Williams</a></li>
-      <li><a href="../Companions/Amy Pond.html">Amy Pond</a></li>
-      <li><a href="../Companions/Sara Jane .html">Sarah Jane Smith</a></li>
-      <li><a href="../Companions/John Harkniss.html">Jack Hartness</a></li>
-      <li><a href="../Companions/Martha Jones.html">Martha Jones</a></li>
-      <li><a href="../Companions/Donna Noble.html">Donna Noble</a></li>
-      <li><a href="../Companions/Mickey.html">Mickey Smith</a></li>
-      <li><a href="../Companions/Rose Tyler.html">Rose Tyler</a></li>
-    </ul>
+    <p><a href="../Companions/Clara Oswald.html">Clara Oswald</a></p>
+    <p><a href="../Companions/River Song.html">River Song</a></p>
+    <p><a href="../Companions/Rory Williams.html">Rory Williams</a></p>
+    <p><a href="../Companions/Amy Pond.html">Amy Pond</a></p>
+    <p><a href="../Companions/Sara Jane .html">Sarah Jane Smith</a></p>
+    <p><a href="../Companions/John Harkniss.html">Jack Hartness</a></p>
+    <p><a href="../Companions/Martha Jones.html">Martha Jones</a></p>
+    <p><a href="../Companions/Donna Noble.html">Donna Noble</a></p>
+    <p><a href="../Companions/Mickey.html">Mickey Smith</a></p>
+    <p><a href="../Companions/Rose Tyler.html">Rose Tyler</a></p>
     <!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['Villains Submenu']" -->
-    <ul>
-      <li><a href="../Villains/The Master.html">The Master</a></li>
-      <li><a href="../Villains/Daleks.html">The Daleks</a></li>
-      <li><a href="../Villains/Cybermen.html">Cybermen</a></li>
-      <li><a href="../Villains/Silence.html">The Silence</a></li>
-      <li><a href="../Villains/Sontarans.html">Sontarans</a></li>
-      <li><a href="../Villains/Weeping Angels.html">The Weeping Angels</a></li>
-      <li><a href="../Villains/Great Intelligence.html">The Great Intelligence</a></li>
-      <li><a href="../Villains/Zygon.html">Zygon</a></li>
-      <li><a href="../Villains/Slitheen.html">Slitheen</a></li>
-      <li><a href="../Villains/Empress of Ragoon.html">Empress of Racnoss </a></li>
-    </ul>
+    <p><a href="../Villains/The Master.html">The Master</a></p>
+    <p><a href="../Villains/Daleks.html">The Daleks</a></p>
+    <p><a href="../Villains/Cybermen.html">Cybermen</a></p>
+    <p><a href="../Villains/Silence.html">The Silence</a></p>
+    <p><a href="../Villains/Sontarans.html">Sontarans</a></p>
+    <p><a href="../Villains/Weeping Angels.html">The Weeping Angels</a></p>
+    <p><a href="../Villains/Great Intelligence.html">The Great Intelligence</a></p>
+    <p><a href="../Villains/Zygon.html">Zygon</a></p>
+    <p><a href="../Villains/Slitheen.html">Slitheen</a></p>
+    <p><a href="../Villains/Empress of Ragoon.html">Empress of Racnoss </a></p>
     <!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['Show History Submenu']" -->
-    <ul>
-      <li><a href="../Show History/Origins.html">Origins</a></li>
-      <li><a href="../Show History/Original Series.html">The Original Series</a></li>
-      <li><a href="../Show History/1996 Movie.html">1996 Film</a></li>
-      <li><a href="../Show History/2005 Revival.html">2005 Revival</a></li>
-    </ul>
+    <p><a href="../Show History/Origins.html">Origins</a></p>
+    <p><a href="../Show History/Original Series.html">The Original Series</a></p>
+    <p><a href="../Show History/1996 Movie.html">1996 Film</a></p>
+    <p><a href="../Show History/2005 Revival.html">2005 Revival</a></p>
     <!-- TemplateEndIf --></td>
     <td><!-- TemplateBeginEditable name="Page Content" -->[Page Content]<!-- TemplateEndEditable --></td>
   </tr>
 </table>
-<table>
+<table class="general-width">
   <tr>
-    <td><p>Brendan Davey</p>
+    <td class="bottom-nav"><p>Brendan Davey</p>
     <p>Monica DuCong'e</p>
     <p>Erik Eyler</p>
     <p>Kayleen Garcia</p>
     <p>Katie Hyche</p>
     <p>Ryan Moeller</p></td>
-    <td><p>Christine O'Brien</p>
+    <td class="bottom-nav"><p>Christine O'Brien</p>
     <p>Alex Recinos</p>
     <p>Julia Schwartz</p>
     <p>Madeleine Schwartz</p>
     <p>Ann Marie Skjold</p>
     <p>Ashly Wilkins</p></td>
-    <td>[Reference Links]</td>
+    <td class="end-nav">[Reference Links]</td>
   </tr>
 </table>
 </body>
