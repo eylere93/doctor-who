@@ -29,3 +29,23 @@ table {
 	background-color: #FFF;
 	border-collapse:collapse;
 }
+.imagerap {
+	float: left;
+	margin-right: 100px;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	padding: 15px;
+	background-color: #999;
+	border-top-width: 10px;
+	border-right-width: 10px;
+	border-bottom-width: 10px;
+	border-left-width: 10px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #F00;
+	border-right-color: #900;
+	border-bottom-color: #640000;
+	border-left-color: #900;
+}
