@@ -12,6 +12,7 @@
 <!-- TemplateParam name="Villains Submenu" type="boolean" value="false" -->
 <!-- TemplateParam name="Show History Submenu" type="boolean" value="false" -->
 <link href="../styles.css" rel="stylesheet" type="text/css">
+<!-- TemplateParam name="Home Page Doctor" type="boolean" value="false" -->
 </head>
 
 <body class="body">
@@ -66,7 +67,7 @@
     <p><a href="../Show History/Original Series.html">The Original Series</a></p>
     <p><a href="../Show History/1996 Movie.html">1996 Film</a></p>
     <p><a href="../Show History/2005 Revival.html">2005 Revival</a></p>
-    <!-- TemplateEndIf --></td>
+    <!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['Home Page Doctor']" --><img src="../images/secondary nav homepage/peter capaldi edited.jpg" width="300" height="425"><!-- TemplateEndIf --></td>
     <td><!-- TemplateBeginEditable name="Page Content" -->[Page Content]<!-- TemplateEndEditable --></td>
   </tr>
 </table>
