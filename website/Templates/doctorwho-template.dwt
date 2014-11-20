@@ -23,7 +23,7 @@
 <body class="body">
 <table class="general-width">
   <tr>
-    <td><!-- TemplateBeginIf cond="banner" --><img src="../images/banners/the-doctors.jpg" width="1000" height="200"><!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['doctors banner']" --><!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['companions banner']" --><!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['villains banner']" --><!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['show history banner']" --><!-- TemplateEndIf --></td>
+    <td><!-- TemplateBeginIf cond="banner" --><img src="../images/banners/the-doctors.jpg" width="1000" height="200"><!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['doctors banner']" --><img src="../images/banners/13-doctors-banner.jpg" width="1000" height="200"><!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['companions banner']" --><img src="../images/banners/companions-banner-edited.jpg" width="1000" height="200"><!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['villains banner']" --><img src="../images/banners/villains-banned-edited.jpg" width="1000" height="200"><!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['show history banner']" --><img src="../images/banners/show-history-edited.jpg" width="1000" height="200"><!-- TemplateEndIf --></td>
   </tr>
   <tr>
     <td><a href="../index.html">Home</a> | <a href="../The Doctors/index.html">The Doctors</a> | <a href="../Companions/index.html">The Companions</a> | <a href="../Villains/index.html">The Villains</a> | <a href="../Show History/index.html">Show History</a></td>
