@@ -49,3 +49,26 @@ table {
 	border-bottom-color: #300859;
 	border-left-color: #5E11AF;
 }
+.contentstuff {
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.primarynav a {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: block;
+	float: left;
+	margin-right: 50px;
+	margin-left: 5px;
+	background-color: #873A2A;
+	color: #FFF;
+	text-decoration: none;
+	padding-top: 15px;
+	padding-right: 30px;
+	padding-bottom: 15px;
+	padding-left: 30px;
+	border-radius: 10px;
+}
+.primarynav a:hover {
+	background-color: #154063;
+}
