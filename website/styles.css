@@ -35,7 +35,7 @@ table {
 	margin-top: 10px;
 	margin-bottom: 50px;
 	padding: 15px;
-	background-color: #999;
+	background-color: #333;
 	border-top-width: 10px;
 	border-right-width: 10px;
 	border-bottom-width: 10px;
@@ -44,8 +44,8 @@ table {
 	border-right-style: solid;
 	border-bottom-style: solid;
 	border-left-style: solid;
-	border-top-color: #F00;
-	border-right-color: #900;
-	border-bottom-color: #640000;
-	border-left-color: #900;
+	border-top-color: #8819FF;
+	border-right-color: #5E11AF;
+	border-bottom-color: #300859;
+	border-left-color: #5E11AF;
 }
